@@ -1,68 +1,54 @@
+# Medical Appointment Management System
 
-# 🏥 Medical Appointment Management System
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-A comprehensive **web-based platform** designed to streamline the scheduling and management of medical appointments, developed using **Java EE technologies** including **Java Servlets**, **JavaServer Pages (JSP)**, and **MySQL** for robust database management. The system is deployed on **Apache Tomcat**, ensuring reliable and scalable performance for healthcare providers.
+A comprehensive enterprise-grade web application designed to streamline appointment scheduling between patients, doctors, and administrators. Built with a robust Java EE architecture, this system ensures reliable data management and secure user interactions for healthcare workflows.
 
-![screenshot](Images/1.PNG)
-![screenshot](Images/2.PNG)
-![screenshot](Images/3.PNG)
----
+![Medical System Dashboard](Images/1.PNG)
 
-## 📌 Features
+## ✨ Core Features
 
-### 👤 Patient
-- Register and log in to the system
-- Search available doctors by specialty
-- Book an appointment at a selected date and time
-- View upcoming and past appointments
-- Cancel appointments (if at least 3 days in the future)
+### 👤 Patient Module
+*   **Secure Authentication:** User registration and login functionality.
+*   **Search & Discovery:** Search for medical professionals by specialty.
+*   **Scheduling Engine:** Book, view, and manage appointments with built-in business logic (e.g., 3-day cancellation policy).
 
-![screenshot](Images/4.PNG)
-![screenshot](Images/5.PNG)
+### 🩺 Doctor Module
+*   **Availability Management:** Doctors can set and update their own scheduling windows.
+*   **Dashboard Views:** Filterable schedule views by day or week to manage patient flow.
 
-### 🩺 Doctor
-- Log in securely
-- Submit availability (dates & times)
-- View scheduled appointments by day or week
-- Cancel future appointments (if at least 3 days ahead)
+### 🛠️ Admin Module
+*   **User Management:** Centralized registration and oversight of medical professionals and system records.
 
-![screenshot](Images/6.PNG)
-![screenshot](Images/7.PNG)
-![screenshot](Images/8.PNG)
-![screenshot](Images/9.PNG)
+## 🛠️ Built With
 
-### 🛠️ Admin
-- Register new doctors into the system
-- View all registered doctors and specialties
+<p align="left">
+  <img src="https://img.shields.io/badge/Java_EE-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java EE" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black" alt="Tomcat" />
+  <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+</p>
 
-![screenshot](Images/11.PNG)
-![screenshot](Images/12.PNG)
----
+![Screenshots Montage](Images/13.PNG)
 
-## 🛠️ Technologies Used
+## 🚀 Getting Started
 
-- **Java EE (Servlets, JSP)**
-- **MySQL** for relational database
-- **Apache Tomcat** as the application server
-- **JDBC** for database interaction
-- **Bootstrap 5** for responsive UI
-- **Eclipse / IntelliJ** (development IDE)
-
-![screenshot](Images/13.PNG)
----
-
-## 📄 License
-
-This project is open-source.
-
----
+1. **Prerequisites:**
+   * Install [Apache Tomcat](https://tomcat.apache.org/) and a MySQL server.
+   * Ensure [Java JDK](https://www.oracle.com/java/technologies/downloads/) is configured.
+2. **Setup Database:**
+   * Execute the provided SQL scripts in your MySQL environment to initialize the schema.
+3. **Deploy:**
+   * Clone the repo and import the project into your IDE (Eclipse/IntelliJ).
+   * Configure the database credentials in the JDBC connection class.
+   * Deploy the WAR file to your Tomcat `/webapps` directory.
 
 ## 🤝 Contributing
 
-Pull requests are welcome! Please follow standard GitHub flow and keep the code clean and documented.
+Contributions are welcome! If you would like to improve the scheduling logic or UI, please fork the repository and submit a pull request.
 
----
+## 📫 Contact
 
-## 📬 Contact
+Kyriakos Obrizanou – [obrizanou@gmail.com](mailto:obrizanou@gmail.com)
 
-For questions, contact me at [obrizanou@gmail.com](mailto:obrizanou@gmail.com) or open an issue.
+Project Link: [https://github.com/filipposobrijanu/Medical-Appointment-Management-System](https://github.com/filipposobrijanu/Medical-Appointment-Management-System)
