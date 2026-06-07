@@ -49,6 +49,6 @@ Contributions are welcome! If you would like to improve the scheduling logic or 
 
 ## 📫 Contact
 
-Kyriakos Obrizanou – [obrizanou@gmail.com](mailto:obrizanou@gmail.com)
+[obrizanou@gmail.com](mailto:obrizanou@gmail.com)
 
 Project Link: [https://github.com/filipposobrijanu/Medical-Appointment-Management-System](https://github.com/filipposobrijanu/Medical-Appointment-Management-System)
