@@ -1,61 +1,84 @@
-# Medical Appointment Management System
+<h1 align="center">Medical Appointment Management System</h1>
+<h3 align="center">Enterprise-Grade Healthcare Scheduling & Workflow Engine</h3>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+<p align="center">
+  A comprehensive, multi-tier enterprise web application designed to optimize scheduling workflows between patients, medical professionals, and administrators. Built on a robust <strong>Java EE (Jakarta EE)</strong> architecture, this system ensures reliable relational data persistence, strict authorization patterns, and high-performance throughput for critical healthcare environments.
+</p>
 
-A comprehensive enterprise-grade web application designed to streamline appointment scheduling between patients, doctors, and administrators. Built with a robust Java EE architecture, this system ensures reliable data management and secure user interactions for healthcare workflows.
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License" />
+</p>
 
-![Medical System Dashboard](Images/1.PNG)
+---
 
-## ✨ Core Features
+### ✨ Core System Modules
 
-### 👤 Patient Module
-*   **Secure Authentication:** User registration and login functionality.
-*   **Search & Discovery:** Search for medical professionals by specialty.
-*   **Scheduling Engine:** Book, view, and manage appointments with built-in business logic (e.g., 3-day cancellation policy).
+* **Patient Workflow:** Implements secure authentication protocols and dynamic search/discovery APIs, enabling patients to filter medical professionals by specialty and execute complex scheduling workflows subject to strict business-logic constraints (e.g., automated cancellation windows).
+* **Provider Management Engine:** Empowers doctors with a reactive availability-management interface, allowing for precise definition of clinical scheduling windows and filtered daily/weekly patient-flow views.
+* **Admin Orchestration Layer:** Centralized governance for stakeholder lifecycle management, providing full oversight of professional registries, appointment audit logs, and system data integrity.
 
-### 🩺 Doctor Module
-*   **Availability Management:** Doctors can set and update their own scheduling windows.
-*   **Dashboard Views:** Filterable schedule views by day or week to manage patient flow.
+---
 
-### 🛠️ Admin Module
-*   **User Management:** Centralized registration and oversight of medical professionals and system records.
+### 🛠️ Enterprise Technology Stack
 
-## 🛠️ Built With
-
+**Backend & Business Logic**
 <p align="left">
   <img src="https://img.shields.io/badge/Java_EE-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java EE" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black" alt="Tomcat" />
+</p>
+
+**Data Persistence & Frontend Presentation**
+<p align="left">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
 </p>
 
-![Screenshots Montage](Images/13.PNG)
-![Screenshots Montage](Images/6.PNG)
-![Screenshots Montage](Images/2.PNG)
-![Screenshots Montage](Images/3.PNG)
-![Screenshots Montage](Images/4.PNG)
-![Screenshots Montage](Images/5.PNG)
-![Screenshots Montage](Images/8.PNG)
-![Screenshots Montage](Images/7.PNG)
-![Screenshots Montage](Images/9.PNG)
+---
 
-## 🚀 Getting Started
+### 📸 Application Interface Showcase
 
-1. **Prerequisites:**
-   * Install [Apache Tomcat](https://tomcat.apache.org/) and a MySQL server.
-   * Ensure [Java JDK](https://www.oracle.com/java/technologies/downloads/) is configured.
-2. **Setup Database:**
-   * Execute the provided SQL scripts in your MySQL environment to initialize the schema.
-3. **Deploy:**
-   * Clone the repo and import the project into your IDE (Eclipse/IntelliJ).
-   * Configure the database credentials in the JDBC connection class.
-   * Deploy the WAR file to your Tomcat `/webapps` directory.
+<p align="center">
+  <img src="Images/1.PNG" width="48%" />
+  <img src="Images/13.PNG" width="48%" />
+</p>
+<p align="center">
+  <img src="Images/6.PNG" width="48%" />
+  <img src="Images/2.PNG" width="48%" />
+</p>
+<p align="center">
+  <img src="Images/3.PNG" width="48%" />
+  <img src="Images/4.PNG" width="48%" />
+</p>
+<p align="center">
+  <img src="Images/5.PNG" width="48%" />
+  <img src="Images/8.PNG" width="48%" />
+</p>
+<p align="center">
+  <img src="Images/7.PNG" width="48%" />
+  <img src="Images/9.PNG" width="48%" />
+</p>
 
-## 🤝 Contributing
+---
 
-Contributions are welcome! If you would like to improve the scheduling logic or UI, please fork the repository and submit a pull request.
+### 🚀 Enterprise Deployment Guide
 
-## 📫 Contact
+**1. Infrastructure Prerequisites:**
+* **Java JDK:** Ensure a production-compatible JDK (11+) is configured in your environment.
+* **Server Runtime:** Install **Apache Tomcat** as your servlet container.
+* **Database Engine:** Ensure a **MySQL** server instance is running.
 
-[obrizanou@gmail.com](mailto:obrizanou@gmail.com)
+**2. Database Initialization:**
+* Execute the provided `.sql` migration scripts within your MySQL instance to seed the schema and necessary constraints.
 
+**3. Application Deployment:**
+* Clone the repository and import the workspace into an IDE (IntelliJ IDEA or Eclipse).
+* Configure the `JDBC` data-source credentials within the project's connectivity configuration class.
+* Compile the project into a `.war` file and deploy directly to the `webapps` folder in your Tomcat home directory.
+
+---
+
+### 🤝 Contribution & Contact
+
+Contributions are highly encouraged, particularly concerning the optimization of scheduling algorithms or the enhancement of UI accessibility. Please fork the repository and submit a formal pull request.
+
+**Inquiries:** [obrizanou@gmail.com](mailto:obrizanou@gmail.com)
