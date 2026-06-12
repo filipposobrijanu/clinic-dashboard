@@ -21,16 +21,29 @@
 
 ### 🛠️ Enterprise Technology Stack
 
-**Backend & Business Logic**
+**Backend Framework & Spec Implementations**
 <p align="left">
-  <img src="https://img.shields.io/badge/Java_EE-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java EE" />
-  <img src="https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black" alt="Tomcat" />
+  <img src="https://img.shields.io/badge/Java_EE_/_Jakarta_EE-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java EE" />
+  <img src="https://img.shields.io/badge/Java_Servlets-ED8B00?style=for-the-badge&logo=java" alt="Java Servlets" />
+  <img src="https://img.shields.io/badge/JavaServer_Pages_(JSP)-ED8B00?style=for-the-badge" alt="JSP" />
 </p>
 
-**Data Persistence & Frontend Presentation**
+**Web Infrastructure & Server Runtimes**
+<p align="left">
+  <img src="https://img.shields.io/badge/Apache_Tomcat_9+-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black" alt="Tomcat" />
+</p>
+
+**Relational Storage & Enterprise Connectivity**
 <p align="left">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Java_Database_Connectivity_(JDBC)-4479A1?style=for-the-badge" alt="JDBC" />
+</p>
+
+**Client Presentation & Layout Engineering**
+<p align="left">
   <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
 </p>
 
 ---
