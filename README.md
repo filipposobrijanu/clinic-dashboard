@@ -1,8 +1,8 @@
 <h1 align="center">Medical Appointment Management System</h1>
-<h3 align="center">Enterprise-Grade Healthcare Scheduling & Workflow Engine</h3>
+<h3 align="center">Healthcare Scheduling & Workflow Engine</h3>
 
 <p align="center">
-  A comprehensive, multi-tier enterprise web application designed to optimize scheduling workflows between patients, medical professionals, and administrators. Built on a robust <strong>Java EE (Jakarta EE)</strong> architecture, this system ensures reliable relational data persistence, strict authorization patterns, and high-performance throughput for critical healthcare environments.
+  A comprehensive, multi-tier web application designed to optimize scheduling workflows between patients, medical professionals, and administrators. Built on a <strong>Java EE (Jakarta EE)</strong> architecture, this system ensures reliable relational data persistence for critical healthcare environments.
 </p>
 
 <p align="center">
@@ -11,15 +11,14 @@
 
 ---
 
-### ✨ Core System Modules
+### Core System Modules
 
-* **Patient Workflow:** Implements secure authentication protocols and dynamic search/discovery APIs, enabling patients to filter medical professionals by specialty and execute complex scheduling workflows subject to strict business-logic constraints (e.g., automated cancellation windows).
-* **Provider Management Engine:** Empowers doctors with a reactive availability-management interface, allowing for precise definition of clinical scheduling windows and filtered daily/weekly patient-flow views.
-* **Admin Orchestration Layer:** Centralized governance for stakeholder lifecycle management, providing full oversight of professional registries, appointment audit logs, and system data integrity.
+* **Patient Workflow:** Implements secure authentication protocols and dynamic search/discovery APIs and enabling patients to filter medical professionals by specialty.
+* **Provider Management Engine:** Empowers doctors with a reactive availability management interface, allowing for precise definition of clinical scheduling windows.
 
 ---
 
-### 🛠️ Enterprise Technology Stack
+### Enterprise Technology Stack
 
 **Backend Framework & Spec Implementations**
 <p align="left">
@@ -48,7 +47,7 @@
 
 ---
 
-### 📸 Application Interface Showcase
+### Application Interface Showcase
 
 <p align="center">
   <img src="Images/1.PNG" width="48%" />
@@ -73,7 +72,7 @@
 
 ---
 
-### 🚀 Enterprise Deployment Guide
+### Enterprise Deployment Guide
 
 **1. Infrastructure Prerequisites:**
 * **Java JDK:** Ensure a production-compatible JDK (11+) is configured in your environment.
