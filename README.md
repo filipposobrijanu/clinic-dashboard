@@ -89,7 +89,7 @@
 
 ---
 
-### 🤝 Contribution & Contact
+### Contribution & Contact
 
 Contributions are highly encouraged, particularly concerning the optimization of scheduling algorithms or the enhancement of UI accessibility. Please fork the repository and submit a formal pull request.
 
